@@ -69,6 +69,10 @@ The selective CPU+FPGA path improves prompt-processing throughput while keeping 
 | P128-N64 | 8.65 tok/s | 25.07 tok/s | 2.90x | 5.88 tok/s | 5.70 tok/s |
 | P512-N64 | 8.53 tok/s | 24.12 tok/s | 2.83x | 5.87 tok/s | 5.67 tok/s |
 
+## ASIC (SKY130)
+
+The same GEMM engine is also hardened to a signoff-clean SKY130 layout with OpenLane: 50 MHz (TT), 76.3 mm², DRC/LVS/antenna clean. Details in [asic/README.md](https://github.com/VinhPT-Lab/GEMM_32x32_KV260/blob/main/asic/README.md).
+
 ## Documentation
 
 - [Documentation index](docs/README.md)
